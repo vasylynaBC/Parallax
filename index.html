@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>Орбіта на CSS3</title>
+    <style>
+        .earth{
+            position: relative;
+            top: 100px;
+            left: 100px;
+            z-index: 4;
+        }
+        body{
+            background-image: url(images/cosmos.jpg);
+        }
+        
+        .moon{
+            position: absolute;
+            top: 65px;
+            left: 450px;
+            z-index: 5;
+           
+            
+        }
+      </style>
+    
+  </head>
+  <body>
+    
+    <img src="images/earth.png" alt="earth" class="earth">
+    <img src="images/moon2.png" alt="earth" class="moon">
+    
+    <script src="../jquery-3.1.1.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
